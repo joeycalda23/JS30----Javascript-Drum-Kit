@@ -1,0 +1,17 @@
+.section-key {
+    background-image:url(http://i.imgur.com/b9r5sEL.jpg);
+    background-size:cover;
+    height:100vh;
+    width:auto;
+    background-position: center;
+}
+
+
+.section-header {
+    position:fixed;
+    top:10%;
+    left:50%;
+    transform:translateX(-50%);
+    background-image: linear-gradient(rgba($color-black,0.5),rgba($color-black,0.5));
+    text-align: center;
+}

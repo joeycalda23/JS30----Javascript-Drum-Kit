@@ -1,0 +1,48 @@
+.keys {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:transparent;
+    padding:1rem;
+
+    //flexbox properties
+
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    width:90%;
+    align-content: space-betweem;
+}
+
+.key {
+    width:12rem;
+    height:9rem;
+    margin:.5rem;
+    border:.5rem solid $color-black;
+    border-radius: 1rem;
+    text-align: center;
+    background-image: linear-gradient(rgba($color-black,0.8),rgba($color-black,0.8));
+
+    & kbd {
+        font-size:6rem;
+        color:$color-white;
+        display:block;
+        padding-top:1rem;
+    }
+
+    & span {
+        color:$color-yellow;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    &__playing {
+        transform:scale(1.1);
+        border:.6rem solid $color-yellow;
+        transition:all 0.08s;
+    }
+}
+

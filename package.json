@@ -1,0 +1,17 @@
+{
+  "name": "javascriptdrumkit",
+  "version": "1.0.0",
+  "description": "Exercise 1",
+  "main": "\\",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
